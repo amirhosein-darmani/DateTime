@@ -82,8 +82,8 @@ NAME_PATTERN = re.compile(r'([a-zA-Z]+)', re.I)
 SPACE_CHARS = ' \t\n'
 DELIMITERS = '-/.:,+'
 
-_MONTH_LEN = ((0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31),
-              (0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31))
+_MONTH_LEN = ((0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29),
+              (0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 30))
 _MONTHS = ('', 'January', 'February', 'March', 'April', 'May', 'June',
            'July', 'August', 'September', 'October', 'November', 'December')
 _MONTHS_A = ('', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
